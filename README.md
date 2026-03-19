@@ -5,7 +5,7 @@ Nuke corporate HR rejection emails before you even wake up.
 This is the raw, open-source Google Apps Script backend that powers **Rejection Shield**. 
 
 ## Why does this exist?
-Because waking up to three "unfortunately, we have decided to move forward with other candidates" emails from a soulless ATS like Workday is a garbage way to start the day when you're grinding through endless IT interviews. You should be focusing on the next application, not reading automated corporate sympathy.
+Because waking up to three "unfortunately, we have decided to move forward with other candidates" emails from a soulless ATS like Workday is a garbage way to start the day when you're grinding through endless interviews. You should be focusing on the next application, not reading automated corporate sympathy.
 
 ## Why is Google throwing an "Unverified App" warning?
 Because this is a free, open-source tool built by an indie dev, not a mega-corp paying Google $15,000+ for a third-party CASA Tier 2 security audit. 
