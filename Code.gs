@@ -13,32 +13,63 @@ function doGet(e) {
 
 function createRejectionFilter() {
   // The god-tier master list of corporate HR bullshit
-  const badWords = [
-    // The Classics
-    "unfortunately, we have decided to move forward with other candidates",
+const badWords = [
+    // --- The "Moving Forward" Matrix ---
+    "decided to move forward with other",
+    "decided to move forward with another",
+    "decided not to move forward",
+    "decided to proceed with other",
+    "decided to proceed with another",
+    "decided to pursue other",
+    "decided to pursue another",
+    "chosen to move forward with other",
+    "chosen to move forward with another",
+    "will not be moving forward",
+    "won't be moving forward",
+    "not moving forward with your",
+    "unable to move forward with",
+    
+    // --- The "Not Selected" Brutality ---
+    "not been selected for further",
+    "not selected for further",
+    "not been selected for the position",
+    "not selected for the role",
+    "was not selected for this",
+    "not be moving your candidacy",
+    "not be able to explore this",
+    "no longer in consideration",
+    "will not be invited to",
+    
+    // --- The "Boilerplate BS" Triggers ---
     "thank you for your interest, however",
-    "after careful consideration we will not be moving forward",
-    "decided to pursue other candidates",
+    "thank you for your interest but",
+    "thank you for your interest in the",
     "while your background is impressive",
-    "we regret to inform you",
-    
-    // The "Close but no cigar"
-    "other candidates who are a closer fit",
-    "we have decided to proceed with other applicants",
+    "while your qualifications are impressive",
+    "although your background is impressive",
     "although your qualifications are impressive",
-    "decided to advance other candidates",
+    "after careful consideration we will",
+    "careful consideration of your",
+    "after reviewing your application",
     
-    // The "Black Hole" 
-    "due to the volume of applications we received",
-    "keep your resume on file for future",
+    // --- The "Silver Lining" Lies ---
+    "keep your resume on file",
+    "keep your application on file",
     "keep your details on file",
-    "not selected for further consideration",
-    "position has been filled",
+    "keep your information on file",
+    "encourage you to apply for",
+    "explore other opportunities to join",
+    "consider you for similar roles",
     
-    // The fake polite sign-offs
-    "wishing you the best in your job search",
-    "wish you success in your future endeavors",
-    "best of luck in your career search"
+    // --- The "Position Filled" / Sign-offs ---
+    "position has been filled",
+    "role has been filled",
+    "job has been filled",
+    "best of luck in your career search",
+    "best of luck in your job search",
+    "success in your future endeavors",
+    "wishing you the best in your job",
+    "wishing you the best in your career"
   ];
   
   // Formats it so Google understands it as an exact match query
